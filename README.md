@@ -14,8 +14,8 @@ will return the security group rules in a CSV file to easily audit.
 - Region can be `us-east-1` but not required
 
 ### How to use
-- Clone the repo into your existing project or use it as a new project
-- Create a new file `audit.py` and add the following code
+- Install using `pip3 install security-group-auditor`
+- Use the code via the following
     ```
     from security_group_auditor import security_group_auditor
 
