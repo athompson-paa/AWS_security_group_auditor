@@ -20,12 +20,12 @@ will return the security group rules in a CSV file to easily audit.
     from security_group_auditor import security_group_auditor
 
     security_group_auditor(regions="(Required) ALL",
-                       vpc_ids=["(Optional) list of vpc ids | None"],
-                       protocol="(Optional) TCP | UDP | ICMP",
-                       cidr=["(Optional) list of CIDR's that you want to search"],
-                       user_id=["(Optional) list of AWS account ID's"],
-                       sg_ids=["(Optional) list of security group ID's"],
-                       audit_file_path="(Required) Path to .csv file where you want to store data. Ex: /home/user/data.csv")
+                           vpc_ids=["(Optional) list of vpc ids | None"],
+                           protocol="(Optional) TCP | UDP | ICMP",
+                           cidr=["(Optional) list of CIDR's that you want to search"],
+                           user_id=["(Optional) list of AWS account ID's"],
+                           sg_ids=["(Optional) list of security group ID's"],
+                           audit_file_path="(Required) Path to .csv file where you want to store data. Ex: /home/user/data.csv")
     ```
 - After executing you can see the csv file in the `audit_file_path` specified
 
