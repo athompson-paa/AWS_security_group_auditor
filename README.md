@@ -4,8 +4,8 @@ A Python security group auditor that will scan all your AWS regions and
 will return the security group rules in a CSV file to easily audit.
 
 ## Requirements
-    - boto3==1.7.62
-    - pandas==0.23.3
+    - boto3==1.19.0
+    - pandas==1.3.4
     - awscli
 
 ## Configuring awscli
